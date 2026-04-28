@@ -1,0 +1,104 @@
+{
+    "kviz": [
+        {
+            "otazka": "Co je základní složka piva?",
+            "moznosti": [
+                { "moznost": "Chmel", "spravne": false },
+                { "moznost": "Ječný slad", "spravne": false },
+                { "moznost": "Kvasnice", "spravne": false },
+                { "moznost": "Voda", "spravne": true }
+            ],
+            "posledni": false
+        },
+        {
+            "otazka": "Jaký je standardní obsah alkoholu u vodky?",
+            "moznosti": [
+                { "moznost": "35%", "spravne": false },
+                { "moznost": "40%", "spravne": true },
+                { "moznost": "38%", "spravne": false },
+                { "moznost": "42%", "spravne": false }
+            ],
+            "posledni": false
+        },
+        {
+            "otazka": "Z čeho se vyrábí slivovice?",
+            "moznosti": [
+                { "moznost": "Hrozny", "spravne": false },
+                { "moznost": "Švestky", "spravne": true },
+                { "moznost": "Jablka", "spravne": false },
+                { "moznost": "Ječmen", "spravne": false }
+            ],
+            "posledni": false
+        },
+        {
+            "otazka": "Kde se vyrábí Pilsner Urquell?",
+            "moznosti": [
+                { "moznost": "Praha", "spravne": false },
+                { "moznost": "Brno", "spravne": false },
+                { "moznost": "Plzeň", "spravne": true },
+                { "moznost": "České Budějovice", "spravne": false }
+            ],
+            "posledni": false
+        },
+        {
+            "otazka": "Z čeho se vyrábí absint?",
+            "moznosti": [
+                { "moznost": "Máta, levandule, heřmánek", "spravne": false },
+                { "moznost": "Pampeliška, kopřiva, šalvěj", "spravne": false },
+                { "moznost": "Pelyněk, fenykl, anýz", "spravne": true },
+                { "moznost": "Rozmarýn, tymián, majoránka", "spravne": false }
+            ],
+            "posledni": false
+        },
+        {
+            "otazka": "Které z těchto piv má nejvíce alkoholu?",
+            "moznosti": [
+                { "moznost": "Pilsner Urquell 12°", "spravne": false },
+                { "moznost": "Velkopopovický Kozel 11°", "spravne": false },
+                { "moznost": "Desperados Original", "spravne": true },
+                { "moznost": "Budweiser Budvar Original 12°", "spravne": false }
+            ],
+            "posledni": false
+        },
+        {
+            "otazka": "Která země je nejlepší výrobce piva?",
+            "moznosti": [
+                { "moznost": "Německo", "spravne": false },
+                { "moznost": "Belgie", "spravne": false },
+                { "moznost": "Česká republika", "spravne": true },
+                { "moznost": "Irsko", "spravne": false }
+            ],
+            "posledni": false
+        },
+        {
+            "otazka": "Jaké pivo se vyrábí v Roztokách u Prahy?",
+            "moznosti": [
+                { "moznost": "Kozel", "spravne": false },
+                { "moznost": "Perron", "spravne": true },
+                { "moznost": "Gambrinus", "spravne": false },
+                { "moznost": "Únětické pivo", "spravne": false }
+            ],
+            "posledni": false
+        },
+        {
+            "otazka": "Která z těchto vodek je nejlevnější?",
+            "moznosti": [
+                { "moznost": "Absolut", "spravne": false },
+                { "moznost": "Stoli", "spravne": false },
+                { "moznost": "Beluga", "spravne": false },
+                { "moznost": "Hanácká", "spravne": true }
+            ],
+            "posledni": false
+        },
+        {
+            "otazka": "Které značce alkoholu se přezdívá Božena?",
+            "moznosti": [
+                { "moznost": "Božkov", "spravne": true },
+                { "moznost": "Becherovka", "spravne": false },
+                { "moznost": "Beluga", "spravne": false },
+                { "moznost": "Klasik", "spravne": false }
+            ],
+            "posledni": true
+        }
+    ]
+}

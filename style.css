@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+form {
+  background: rgb(233, 233, 233);
+  border-radius: 10px;
+  padding: 15px;
+  width: 470px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+fieldset {
+  border: none;
+  padding: 15px;
+  width: 100%;
+}
+
+h2 {
+  font-size: larger;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(51, 51, 51);
+  text-align: center;
+  width: 100%;
+}
+
+.questionLabel {
+  font-size: large;
+  cursor: pointer;
+}
+
+.radio {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+}
+
+.questionWrapper {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nextBtn {
+  width: 40%;
+  font-size: larger;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: #1251ff;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  display: block;
+}
+.btnWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+}
+.score {
+  font-weight: bold;
+  font-size: larger;
+  margin: 20px;
+}
+
+.againBtn {
+  font-size: larger;
+  max-width: 450px;
+  width: 100%;
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: #13ce51;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.againBtn.active {
+  display: block;
+}
+h1{
+margin-bottom: 25px;
+}
+
+.correctedOption {
+  background-color: #c7c7c7;
+  border: 3px solid transparent;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 4px;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.correctedOption.correct {
+  background-color: #3fd471;
+}
+
+.correctedOption.incorrect {
+  background-color: #d64e4e;
+}
+
+.correctedOption.selected {
+  border-color: #3f6ef0;
+}
+
+.correctedQuestion {
+  font-size: larger;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 2px solid #333;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+@media (max-width: 500px) {
+  form {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .againBtn {
+  width: 90%;
+}
+.nextBtn{
+  font-size:medium;
+  font-weight: bolder;
+}
+h1{
+font-size: 25px;
+}
+}
